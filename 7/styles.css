@@ -1,0 +1,28 @@
+/* Estilos personalizados para o site */
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #1E3179; /* Azul 1 */
+    color: #FFFFFF; /* Branco */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #FBAC18; /* Azul 2 */
+    color: #FFFFFF; /* Branco */
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+
+
+/*
+AZUL 1  #485490
+AZUL 2  #1E3179
+LARANJA #FBAC18
+BRANCO  #FFFFFF
+*/

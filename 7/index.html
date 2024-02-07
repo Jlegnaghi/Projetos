@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Strike</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Counter Strike</h1>
+    </header>
+
+    <main>
+        <section id="user-info">
+            <h2>Informações do Usuário</h2>
+            <p id="user-name">Carregando...</p>
+            <h3>Amigos</h3>
+            <ul id="friends-list">
+                <!-- Lista de amigos será preenchida dinamicamente com JavaScript -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Seu Nome | 2024 | Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        const apiKey = '89268F05F42C9E3D83CB9F41D9C59118';
+        const userId = '76561198159596270'; // Seu ID de usuário da Steam
+        const userInfoElement = document.getElementById('user-name');
+        const friendsListElement = document.getElementById('friends-list');
+
+        // IDs de usuários da Steam dos seus amigos
+        const friendUserIds = ['76561199086721725', '76561198079941683', 'Bruna__', 'ID_do_amigo_4', 'ID_do_amigo_5', 'ID_do_amigo_6', 'ID_do_amigo_7', 'ID_do_amigo_8'];
+
+        // Obter nome de usuário do usuário atual
+        const apiUrlCurrentUser = `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${apiKey}&steamids=${userId}`;
+
+        fetch(apiUrlCurrentUser)
+            .then(response => response.json())
+            .then(data => {
+                if (data.response && data.response.players && data.response.players.length > 0) {
+                    const playerName = data.response.players[0].personaname;
+                    userInfoElement.textContent = `Seu Nome de Usuário da Steam: ${playerName}`;
+                } else {
+                    userInfoElement.textContent = 'Erro ao carregar nome do usuário';
+                }
+            })
+            .catch(error => {
+                console.error('Erro ao chamar a API da Steam:', error);
+                userInfoElement.textContent = 'Erro ao carregar nome do usuário';
+            });
+
+        // Obter nomes de usuários dos amigos
+        friendUserIds.forEach(friendId => {
+            const apiUrlFriend = `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${apiKey}&steamids=${friendId}`;
+
+            fetch(apiUrlFriend)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.response && data.response.players && data.response.players.length > 0) {
+                        const friendName = data.response.players[0].personaname;
+                        const listItem = document.createElement('li');
+                        listItem.textContent = `Nome de Usuário da Steam do Amigo: ${friendName}`;
+                        friendsListElement.appendChild(listItem);
+                    } else {
+                        console.error(`Erro ao obter informações do amigo para ID: ${friendId}`);
+                    }
+                })
+                .catch(error => {
+                    console.error('Erro ao chamar a API da Steam:', error);
+                });
+        });
+    </script>
+</body>
+</html>
