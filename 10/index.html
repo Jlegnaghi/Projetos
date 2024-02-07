@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God Winnes - Vinhos de Qualidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="our-wines.html">Nossos Vinhos</a></li>
+                <li><a href="about-us.html">Sobre Nós</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>God Winnes</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Vinhos de Qualidade para Todos os Paladares</h2>
+        <p>Descubra uma seleção exclusiva dos melhores vinhos do mundo.</p>
+        <a href="our-wines.html" class="cta-button">Explore Nossos Vinhos</a>
+    </section>
+
+    <section class="featured-wines">
+        <h2>Vinhos em Destaque</h2>
+        <!-- Adicione aqui as informações sobre os vinhos em destaque -->
+    </section>
+
+    <section class="about-us">
+        <h2>Sobre Nós</h2>
+        <p>Somos apaixonados por vinho e estamos comprometidos em oferecer os melhores vinhos para nossos clientes.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Entre em Contato</h2>
+        <!-- Adicione informações de contato aqui, como telefone, endereço e formulário de contato -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 God Winnes - Todos os direitos reservados</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const navLinks = document.querySelector(".nav-links");
+
+            menuToggle.addEventListener("click", function () {
+                navLinks.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para o título "Bem-vindo à Página do Usuário" */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o subtítulo "Olá, Usuário!" */
+  h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para parágrafos */
+  p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para rótulos e campos de entrada no formulário */
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  /* Estilos para o botão "Enviar" */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para o botão "Sair" */
+  input[type="button"] {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #c82333;
+  }
+  
+  /* Estilos para o layout responsivo */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    input[type="text"] {
+      padding: 8px;
+    }
+  
+    input[type="file"] {
+      margin-top: 8px;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+  
+    input[type="button"] {
+      padding: 8px 16px;
+    }
+  }  

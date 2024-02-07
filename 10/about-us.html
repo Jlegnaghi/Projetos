@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - God Winnes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="our-wines.html">Nossos Vinhos</a></li>
+                <li><a href="about-us.html">Sobre Nós</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Sobre Nós</h1>
+    </header>
+
+    <section class="about-us">
+        <h2>Nossa História</h2>
+        <p>Somos uma equipe apaixonada por vinhos, dedicada a compartilhar nossa paixão e conhecimento com você. Fundada em [ano], nossa missão é oferecer os melhores vinhos do mundo a preços acessíveis.</p>
+    </section>
+
+    <!-- Adicione mais informações sobre sua equipe, valores e missão, se desejar -->
+
+    <footer>
+        <p>&copy; 2023 God Winnes - Todos os direitos reservados</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const navLinks = document.querySelector(".nav-links");
+
+            menuToggle.addEventListener("click", function () {
+                navLinks.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+</html>
