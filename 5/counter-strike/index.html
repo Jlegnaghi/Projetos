@@ -14,11 +14,28 @@
     <main>
         <section id="user-info">
             <h2>Informações do Usuário</h2>
-            <p id="user-name">Carregando...</p>
-            <h3>Amigos</h3>
-            <ul id="friends-list">
-                <!-- Lista de amigos será preenchida dinamicamente com JavaScript -->
-            </ul>
+            <div id="user-container">
+                <img id="user-avatar" src="loading.gif" alt="Carregando..." />
+                <p id="user-name">Carregando...</p>
+            </div>
+        </section>
+
+        <section id="cs-info">
+            <h2>Informações do Counter-Strike</h2>
+            <div id="cs-container">
+                <p id="cs-name">Carregando...</p>
+                <p id="cs-playtime">Carregando...</p>
+                <p id="cs-kills">Carregando...</p>
+                <p id="cs-deaths">Carregando...</p>
+                <p id="cs-wins">Carregando...</p>
+                <p id="cs-matches-played">Carregando...</p>
+                <p id="cs-time-played">Carregando...</p>
+                <p id="cs-damage-done">Carregando...</p>
+                <p id="cs-money-earned">Carregando...</p>
+                <p id="cs-headshots">Carregando...</p>
+                <p id="cs-bombs-planted">Carregando...</p>
+                <p id="cs-bombs-defused">Carregando...</p>
+            </div>
         </section>
     </main>
 
@@ -29,50 +46,93 @@
     <script>
         const apiKey = '89268F05F42C9E3D83CB9F41D9C59118';
         const userId = '76561198159596270'; // Seu ID de usuário da Steam
+
         const userInfoElement = document.getElementById('user-name');
-        const friendsListElement = document.getElementById('friends-list');
+        const userAvatarElement = document.getElementById('user-avatar');
+        const csNameElement = document.getElementById('cs-name');
+        const csPlaytimeElement = document.getElementById('cs-playtime');
+        const csKillsElement = document.getElementById('cs-kills');
+        const csDeathsElement = document.getElementById('cs-deaths');
+        const csWinsElement = document.getElementById('cs-wins');
+        const csMatchesPlayedElement = document.getElementById('cs-matches-played');
+        const csTimePlayedElement = document.getElementById('cs-time-played');
+        const csDamageDoneElement = document.getElementById('cs-damage-done');
+        const csMoneyEarnedElement = document.getElementById('cs-money-earned');
+        const csHeadshotsElement = document.getElementById('cs-headshots');
+        const csBombsPlantedElement = document.getElementById('cs-bombs-planted');
+        const csBombsDefusedElement = document.getElementById('cs-bombs-defused');
 
-        // IDs de usuários da Steam dos seus amigos
-        const friendUserIds = ['76561199086721725', '76561198079941683', 'Bruna__', 'ID_do_amigo_4', 'ID_do_amigo_5', 'ID_do_amigo_6', 'ID_do_amigo_7', 'ID_do_amigo_8'];
+        const userInfoUrl = `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${apiKey}&steamids=${userId}`;
+        const userStatsUrl = `https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=730&key=${apiKey}&steamid=${userId}`;
 
-        // Obter nome de usuário do usuário atual
-        const apiUrlCurrentUser = `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${apiKey}&steamids=${userId}`;
-
-        fetch(apiUrlCurrentUser)
+        fetch(userInfoUrl)
             .then(response => response.json())
             .then(data => {
                 if (data.response && data.response.players && data.response.players.length > 0) {
                     const playerName = data.response.players[0].personaname;
-                    userInfoElement.textContent = `Seu Nome de Usuário da Steam: ${playerName}`;
+                    const playerAvatar = data.response.players[0].avatar;
+                    userInfoElement.textContent = `Nome de Usuário da Steam: ${playerName}`;
+                    userAvatarElement.src = playerAvatar;
+                    userAvatarElement.alt = playerName;
                 } else {
                     userInfoElement.textContent = 'Erro ao carregar nome do usuário';
+                    userAvatarElement.src = 'error.png';
+                    userAvatarElement.alt = 'Erro';
                 }
             })
             .catch(error => {
                 console.error('Erro ao chamar a API da Steam:', error);
                 userInfoElement.textContent = 'Erro ao carregar nome do usuário';
+                userAvatarElement.src = 'error.png';
+                userAvatarElement.alt = 'Erro';
             });
 
-        // Obter nomes de usuários dos amigos
-        friendUserIds.forEach(friendId => {
-            const apiUrlFriend = `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${apiKey}&steamids=${friendId}`;
+        fetch(userStatsUrl)
+            .then(response => response.json())
+            .then(data => {
+                if (data.playerstats && data.playerstats.stats && data.playerstats.stats.length > 0) {
+                    const stats = data.playerstats.stats;
+                    csKillsElement.textContent = `Total de mortes: ${getValue(stats, 'total_kills')}`;
+                    csDeathsElement.textContent = `Total de mortes: ${getValue(stats, 'total_deaths')}`;
+                    csWinsElement.textContent = `Total de vitórias: ${getValue(stats, 'total_wins')}`;
+                    csMatchesPlayedElement.textContent = `Total de partidas jogadas: ${getValue(stats, 'total_matches_played')}`;
+                    csTimePlayedElement.textContent = `Tempo total de jogo: ${getValue(stats, 'total_time_played')} minutos`;
+                    csDamageDoneElement.textContent = `Total de dano causado: ${getValue(stats, 'total_damage_done')}`;
+                    csMoneyEarnedElement.textContent = `Total de dinheiro ganho: ${getValue(stats, 'total_money_earned')}`;
+                    csHeadshotsElement.textContent = `Total de headshots: ${getValue(stats, 'total_headshots')}`;
+                    csBombsPlantedElement.textContent = `Total de bombas plantadas: ${getValue(stats, 'total_bombs_planted')}`;
+                    csBombsDefusedElement.textContent = `Total de bombas desarmadas: ${getValue(stats, 'total_bombs_defused')}`;
+                } else {
+                    csKillsElement.textContent = 'Informações não disponíveis';
+                    csDeathsElement.textContent = 'Informações não disponíveis';
+                    csWinsElement.textContent = 'Informações não disponíveis';
+                    csMatchesPlayedElement.textContent = 'Informações não disponíveis';
+                    csTimePlayedElement.textContent = 'Informações não disponíveis';
+                    csDamageDoneElement.textContent = 'Informações não disponíveis';
+                    csMoneyEarnedElement.textContent = 'Informações não disponíveis';
+                    csHeadshotsElement.textContent = 'Informações não disponíveis';
+                    csBombsPlantedElement.textContent = 'Informações não disponíveis';
+                    csBombsDefusedElement.textContent = 'Informações não disponíveis';
+                }
+            })
+            .catch(error => {
+                console.error('Erro ao chamar a API da Steam:', error);
+                csKillsElement.textContent = 'Erro ao carregar informações';
+                csDeathsElement.textContent = 'Erro ao carregar informações';
+                csWinsElement.textContent = 'Erro ao carregar informações';
+                csMatchesPlayedElement.textContent = 'Erro ao carregar informações';
+                csTimePlayedElement.textContent = 'Erro ao carregar informações';
+                csDamageDoneElement.textContent = 'Erro ao carregar informações';
+                csMoneyEarnedElement.textContent = 'Erro ao carregar informações';
+                csHeadshotsElement.textContent = 'Erro ao carregar informações';
+                csBombsPlantedElement.textContent = 'Erro ao carregar informações';
+                csBombsDefusedElement.textContent = 'Erro ao carregar informações';
+            });
 
-            fetch(apiUrlFriend)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.response && data.response.players && data.response.players.length > 0) {
-                        const friendName = data.response.players[0].personaname;
-                        const listItem = document.createElement('li');
-                        listItem.textContent = `Nome de Usuário da Steam do Amigo: ${friendName}`;
-                        friendsListElement.appendChild(listItem);
-                    } else {
-                        console.error(`Erro ao obter informações do amigo para ID: ${friendId}`);
-                    }
-                })
-                .catch(error => {
-                    console.error('Erro ao chamar a API da Steam:', error);
-                });
-        });
+        function getValue(stats, name) {
+            const stat = stats.find(stat => stat.name === name);
+            return stat ? stat.value : 'N/A';
+        }
     </script>
 </body>
 </html>
