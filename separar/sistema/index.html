@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style_index.css">
+    
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <title>Página de Login</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            <img src="img/cadeado.png" alt="Logo">
+        </div>
+
+        <h2>Página de Login</h2>
+
+        <form action="login.php" method="POST">
+
+            <input type="text" name="username" placeholder="Usuário" required><br>
+            <input type="password" name="password" placeholder="Senha" required><br>
+            <label for="user_type">Tipo de Usuário:</label>
+
+            <select name="user_type" id="user_type">
+                <option value="admin">Administrador</option>
+                <option value="user">Usuário</option>
+            </select><br>
+
+            <input type="submit" value="Login">
+            
+        </form>
+
+    </div>
+
+</body>
+</html>
