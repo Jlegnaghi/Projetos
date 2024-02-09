@@ -1,0 +1,178 @@
+[29-Sep-2023 16:34:32 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:8
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(8): mysqli->__construct('localhost', 'root', '', 'sistema_cracha')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 8
+[29-Sep-2023 16:34:38 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:8
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(8): mysqli->__construct('localhost', 'root', '', 'sistema_cracha')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 8
+[29-Sep-2023 16:35:24 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:8
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(8): mysqli->__construct('localhost', 'root', '', 'sistema_cracha')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 8
+[29-Sep-2023 16:40:13 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'sistema_cracha' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'sistema_cracha')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 16:48:41 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'sistema_cracha' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'sistema_cracha')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 16:49:34 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database ' jefferso_login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', ' jefferso_login...')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 16:49:44 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database ' jefferso_login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', ' jefferso_login...')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 16:51:21 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database ' jefferso_login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', ' jefferso_login...')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 16:51:30 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database ' jefferso_login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', ' jefferso_login...')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:04:44 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database ' jefferso_login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', ' jefferso_login...')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:25:22 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database ' jefferso_login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', ' jefferso_login...')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:26:25 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'login_system')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:29:08 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'login_system')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:30:44 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'login_system')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:34:34 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'login_system')
+#1 /home3/jeffersonlegnagh/public_html/cracha/gerenciar_usuarios.php(46): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:35:00 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'login_system')
+#1 /home3/jeffersonlegnagh/public_html/cracha/cadastrar_usuarios.php(5): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:35:18 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'login_system')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:36:23 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'login_system')
+#1 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(3): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:36:37 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'login_system')
+#1 /home3/jeffersonlegnagh/public_html/cracha/gerenciar_usuarios.php(46): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:36:55 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'login_system' in /home3/jeffersonlegnagh/public_html/cracha/conexao.php:13
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/conexao.php(13): mysqli->__construct('localhost', 'jeffersonlegnag...', ';Rzkz^n}sx}E', 'login_system')
+#1 /home3/jeffersonlegnagh/public_html/cracha/cadastrar_usuarios.php(5): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/conexao.php on line 13
+[29-Sep-2023 17:43:13 America/Fortaleza] PHP Warning:  Undefined array key "username" in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 6
+[29-Sep-2023 17:43:13 America/Fortaleza] PHP Warning:  Undefined array key "password" in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 7
+[07-Oct-2023 01:39:38 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' AND password = ''' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11
+[07-Oct-2023 01:39:43 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' AND password = ''' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11
+[07-Oct-2023 01:41:45 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' AND password = ''' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11
+[07-Oct-2023 01:41:59 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' AND password = ''' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11
+[07-Oct-2023 01:43:03 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11
+[07-Oct-2023 01:43:09 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11
+[07-Oct-2023 01:43:36 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11
+[07-Oct-2023 01:44:03 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11
+[07-Oct-2023 01:47:54 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--'' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11
+[07-Oct-2023 01:49:01 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11
+[07-Oct-2023 02:14:00 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jeffersonlegnagh/public_html/cracha/processar_usuarios.php:37) in /home3/jeffersonlegnagh/public_html/cracha/processar_usuarios.php on line 40
+[07-Oct-2023 10:56:06 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--'' at line 1 in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php:11
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/cracha/processar_login.php(11): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/cracha/processar_login.php on line 11

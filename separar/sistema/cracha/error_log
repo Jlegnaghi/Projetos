@@ -1,0 +1,114 @@
+[31-May-2023 17:37:30 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:32
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(32): mysqli->__construct('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 32
+[31-May-2023 17:56:13 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:32
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(32): mysqli->__construct('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 32
+[31-May-2023 17:56:24 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:32
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(32): mysqli->__construct('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 32
+[31-May-2023 21:14:20 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:32
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(32): mysqli->__construct('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 32
+[31-May-2023 21:14:50 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:32
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(32): mysqli->__construct('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 32
+[31-May-2023 21:14:55 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:32
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(32): mysqli->__construct('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 32
+[01-Jun-2023 00:44:20 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:32
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(32): mysqli->__construct('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 32
+[01-Jun-2023 00:44:47 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:32
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(32): mysqli->__construct('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 32
+[01-Jun-2023 00:45:51 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:32
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(32): mysqli->__construct('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 32
+[01-Jun-2023 00:46:25 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:32
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(32): mysqli->__construct('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 32
+[01-Jun-2023 00:49:23 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:49:23 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:49:34 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:49:34 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:49:34 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:62
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(62): mysqli->query('INSERT INTO fun...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 62
+[01-Jun-2023 00:51:15 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:51:15 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:51:16 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:62
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(62): mysqli->query('INSERT INTO fun...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 62
+[01-Jun-2023 00:51:17 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:51:17 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:51:24 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:51:24 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:51:25 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php:8
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php(8): mysqli_connect('localhost', 'root', '', 'dbreserva')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 8
+[01-Jun-2023 00:52:21 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 13
+[01-Jun-2023 00:52:21 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 13
+[01-Jun-2023 00:52:21 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php:22
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php(22): mysqli_query(Object(mysqli), 'SELECT nome, ca...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 22
+[01-Jun-2023 00:52:24 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 13
+[01-Jun-2023 00:52:24 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 13
+[01-Jun-2023 00:52:24 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php:22
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php(22): mysqli_query(Object(mysqli), 'SELECT nome, ca...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 22
+[01-Jun-2023 00:53:04 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:53:04 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:53:07 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:53:07 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:53:19 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:53:19 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 37
+[01-Jun-2023 00:53:19 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php:62
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php(62): mysqli->query('INSERT INTO fun...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/cracha.php on line 62
+[01-Jun-2023 00:54:09 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 13
+[01-Jun-2023 00:54:09 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 13
+[01-Jun-2023 00:54:09 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php:22
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php(22): mysqli_query(Object(mysqli), 'SELECT nome, ca...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 22
+[01-Jun-2023 00:54:54 America/Fortaleza] PHP Warning:  Undefined variable $servername in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 13
+[01-Jun-2023 00:54:54 America/Fortaleza] PHP Warning:  Undefined variable $dbname in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 13
+[01-Jun-2023 00:54:54 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php:22
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php(22): mysqli_query(Object(mysqli), 'SELECT nome, ca...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/sistema/cracha/exibir.php on line 22
