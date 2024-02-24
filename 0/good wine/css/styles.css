@@ -1,0 +1,72 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Cor de fundo neutra */
+    color: #333; /* Cor do texto principal */
+}
+
+.titulo {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0; /* Remove margens padrão para evitar espaçamento extra */
+}
+
+header {
+    background-color: #6b2737; /* Cor vinho para o cabeçalho */
+    padding: 20px;
+    color: #fff; /* Texto do cabeçalho em branco */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #451a24; /* Cor vinho para o destaque */
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #932432; /* Cor mais escura para o botão */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #6b2737; /* Cor de realce ao passar o mouse */
+}
+
+footer {
+    background-color: #6b2737;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

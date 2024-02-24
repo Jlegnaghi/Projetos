@@ -1,0 +1,125 @@
+[23-Feb-2024 16:27:06 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/good wine/conexao.php:9
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/conexao.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'good_wines')
+#1 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(2): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/conexao.php on line 9
+[23-Feb-2024 16:28:13 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/good wine/conexao.php:9
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/conexao.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'good_wines')
+#1 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(2): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/conexao.php on line 9
+[23-Feb-2024 16:28:14 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/good wine/conexao.php:9
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/conexao.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'good_wines')
+#1 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(2): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/conexao.php on line 9
+[23-Feb-2024 16:28:21 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/good wine/conexao.php:9
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/conexao.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'good_wines')
+#1 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(2): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/conexao.php on line 9
+[23-Feb-2024 16:30:32 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/jeffersonlegnagh/public_html/good wine/conexao.php:9
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/conexao.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'good_wines')
+#1 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(2): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/conexao.php on line 9
+[23-Feb-2024 16:43:23 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'jefferso_pesquisa' in /home3/jeffersonlegnagh/public_html/good wine/conexao.php:14
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/conexao.php(14): mysqli->__construct('localhost', 'jeffersonlegnag...', Object(SensitiveParameterValue), 'jefferso_pesqui...')
+#1 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(2): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/conexao.php on line 14
+[23-Feb-2024 16:44:18 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'jefferso_good_wines' in /home3/jeffersonlegnagh/public_html/good wine/conexao.php:14
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/conexao.php(14): mysqli->__construct('localhost', 'jeffersonlegnag...', Object(SensitiveParameterValue), 'jefferso_good_w...')
+#1 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(2): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/conexao.php on line 14
+[23-Feb-2024 16:44:18 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'jefferso_good_wines' in /home3/jeffersonlegnagh/public_html/good wine/conexao.php:14
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/conexao.php(14): mysqli->__construct('localhost', 'jeffersonlegnag...', Object(SensitiveParameterValue), 'jefferso_good_w...')
+#1 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(2): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/conexao.php on line 14
+[23-Feb-2024 16:44:19 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'jefferso_good_wines' in /home3/jeffersonlegnagh/public_html/good wine/conexao.php:14
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/conexao.php(14): mysqli->__construct('localhost', 'jeffersonlegnag...', Object(SensitiveParameterValue), 'jefferso_good_w...')
+#1 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(2): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/conexao.php on line 14
+[23-Feb-2024 16:44:24 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jeffersonlegnagh'@'localhost' to database 'jefferso_good_wines' in /home3/jeffersonlegnagh/public_html/good wine/conexao.php:14
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/conexao.php(14): mysqli->__construct('localhost', 'jeffersonlegnag...', Object(SensitiveParameterValue), 'jefferso_good_w...')
+#1 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(2): include('/home3/jefferso...')
+#2 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/conexao.php on line 14
+[23-Feb-2024 16:45:36 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 16:46:59 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 16:47:07 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 16:47:11 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 16:47:14 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 17:00:02 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 17:36:10 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 17:37:04 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 17:37:12 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 17:38:39 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 17:46:07 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 20:14:13 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
+[23-Feb-2024 20:14:16 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jefferso_good_wine.Produtos' doesn't exist in /home3/jeffersonlegnagh/public_html/good wine/produtos.php:12
+Stack trace:
+#0 /home3/jeffersonlegnagh/public_html/good wine/produtos.php(12): mysqli->query('SELECT * FROM P...')
+#1 {main}
+  thrown in /home3/jeffersonlegnagh/public_html/good wine/produtos.php on line 12
